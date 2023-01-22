@@ -23,6 +23,8 @@
     color: white;
 }
 
+
+
 .nav-link{
     color: white;
 }
@@ -34,16 +36,24 @@
     color: white;
 }
 
+.collapse{
+    color: white;
+}
+
 .card-sorrentinos{
+    align-items: center;
     padding: 10px;
-    width: 500px;
+    width: 400px;
     max-width: fit-content;
-    border: 1px solid;
+    border: 2px solid;
+    box-shadow: 10px 7px 15px 7px rgba(0,0,0,0.97);
     border-radius: 5px;
-    border-color: rgb(108, 162, 108);
+    border-color: black;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 50px;
     
 
 }
+
