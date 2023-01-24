@@ -72,17 +72,23 @@
     margin-left: 50px;
 }
 
+
+
 .main-nosotros{
-    padding: 20px;
-    background-color: rgb(108, 162, 108);
-    width: 500px;
-    height: auto;
-    color: white;
-    font-size: 20px;
+    padding: 30px;
+    max-width: 800px;
+    box-shadow: 5px 5px 15px 5px #000;
+    margin: 30px auto;
+    display: grid;
+    background-color:  #69a56e;
+    border-radius: 10px;
     text-align: center;
-    margin-top: 50px;
-    border: 1px solid;
-    border-radius: 5px;
-    ;
+    color: #f5f7f7;
+    font-size: 20px;
 
 }
+
+.header {
+    padding: 20px;
+    text-align: center;
+  }
