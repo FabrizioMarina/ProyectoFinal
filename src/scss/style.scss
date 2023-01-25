@@ -1,0 +1,95 @@
+@import "reset";
+@import "navbar";
+@import "header";
+@import "footer";
+@import "productos";
+@import "nosotros";
+
+
+.tarjeta{
+    width: 250px;
+
+}
+
+.formulario-consulta {
+    padding: 30px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 10px auto;
+    display: grid;
+    background-color:  #69a56e;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 70px;
+    grid-template-areas: "titulo     titulo" "nombre    nombre" "apellido apellido" "tel        tel   " "consulta   consulta" "btn          btn";
+  }
+  
+  .formulario-consulta h2:nth-child(1) {
+    grid-area: titulo;
+    color: #f5f7f7;
+  }
+  
+  .formulario-consulta label:nth-child(2) {
+    grid-area: nombre;
+  }
+  
+  .formulario-consulta label:nth-child(3) {
+    grid-area: apellido;
+  }
+  
+  .formulario-consulta label:nth-child(4) {
+    grid-area: tel;
+  }
+  
+  .formulario-consulta label:nth-child(5) {
+    grid-area: consulta;
+  }
+  
+  .formulario-consulta button:nth-child(6) {
+    grid-area: btn;
+    border-radius: 5px;
+    background-color: $letterColor;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 15px;
+  }
+  .formulario-consulta button:nth-child(6) > a {
+    text-decoration: none;
+    color: black;
+  }
+  .formulario-consulta button:nth-child(6) > a > a:hover {
+    background-color: blue;
+    color: #f5f7f7;
+  }
+  
+  .formulario-consulta label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f5f7f7;
+  }
+  
+  .formulario-consulta > label > input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #f5f7f7;
+    outline: none;
+  }
+  
+  .formulario-consulta > label > input {
+    color: #f5f7f7;
+  }
+  
+  .formulario-consulta > label > textarea {
+    color: #f5f7f7;
+  }
+  
+  .formulario-consulta > label > textarea {
+    background-color: transparent;
+    border: 0;
+    border: 2px solid #f5f7f7;
+    outline: none;
+    height: 200px;
+    
+  }
+  
